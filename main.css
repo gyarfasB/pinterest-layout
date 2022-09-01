@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 10px;
+    max-width: 100%;
+    height: 800px; /*!!!!!!!*/
+    font-size: 3em;
+    display: flex;
+    flex-flow: column wrap;
+   
+}
+.item {
+    background-color: cadetblue;
+    height: 140px;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 8px;
+    filter: grayscale(0.8);
+    transition: grayscale 0.2s;
+    transition: ease-in-out 0.2s;
+}
+.item:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.05)
+    
+}
+.item:nth-child(2) {
+    height: 220px;
+    background-color: aquamarine;
+}
+.item:nth-child(3) {
+    height: 190px;
+    background-color: #207566;
+}
+.item:nth-child(4) {
+    height: 250px;
+    background-color: #8DF7E3;
+}
+.item:nth-child(5) {
+    height: 130px;
+    background-color: #42F5D4;
+}
+.item:nth-child(6) {
+    height: 180px;
+    background-color: #43756C;
+}
+.item:nth-child(7) {
+    height: 100px;
+    background-color: #207566;
+}
+.item:nth-child(8) {
+    height: 270px;
+    background-color: #8DF7E3;
+}
+.item:nth-child(9) {
+    height: 190px;
+    background-color: #34C2A9;
+}
+.item:nth-child(10) {
+    height: 150px;
+    background-color: #42F5D4;
+}
+nav div img {
+height: 50px;
+}
+nav {
+position: sticky;
+top: 0;
+display: grid;
+grid-template-columns: 9fr 1fr 1fr 1fr 1fr 1fr;
+font-weight: bold;
+background-color: #fff;
+z-index: 2;
+}
+nav div {
+padding: 0.5em;
+align-self:center;
+}
+a {
+text-decoration: none;
+color: black;
+}
+#login {
+font-weight: bold;
+background-color: #E60023;
+border-color: #E60023;
+color: white;
+border-radius: 25px;
+line-height: 2.5em;
+}
+#reg {
+background-color: whitesmoke;
+border-color: whitesmoke;
+border-radius: 25px;
+line-height: 2.5em;
+}
+#login:hover {
+background-color: #bf001d;
+cursor: pointer;
+}
+#reg:hover {
+background-color: rgb(213, 213, 213);
+cursor: pointer;
+}
+#firstDiv {
+font-size: 2em;
+color: #E60023;
+}
+
